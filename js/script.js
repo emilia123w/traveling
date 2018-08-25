@@ -1,5 +1,6 @@
 function addAbout(){
   closeMap();
+  zeroPhotos()
   document.getElementById('about').style.display="block";
 }
 
@@ -37,5 +38,10 @@ var photos=[
 function displayPhotos(){
   closeMap();
   closeAbout();
+  zeroPhotos()
   $("body").append("<div class='galery'>" +photos+"</div>")
+}
+
+function zeroPhotos(){
+  $(".galery").remove();
 }
