@@ -1,3 +1,82 @@
-*{
-background-color:grey;
+html, body {
+   height: 100%;
+   margin: 0;
+  padding: 0;
+  }
+
+
+#map {
+  height: 100%;
+  width: 100%;
+  background-image: url("gory3.jpg");
+  display:block;
+}
+
+#about{
+  display:none;
+  font-family: 'Bree Serif', serif;
+  color:#05214f;
+  text-align: center;
+}
+
+.aboutPhoto{
+  width:800px;
+}
+
+h1 {
+  text-align:center;
+  font-family: 'Bree Serif', serif;
+  color:#05214f;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size:20px;
+  text-decoration: none;
+  width:30%;
+  font-family: 'Bree Serif', serif;
+}
+
+
+li:hover {
+    background-color: #70076c;
+    cursor:pointer;
+}
+
+@media only screen and (max-width: 1000px){
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100px;
+      background-color: #333333;
+      height:100%;
+      position:absolute;
+      z-index:1;
+      margin-bottom:20px;
+  }
+  li {
+    float: none;
+    width:100px;
+    font-size:20px;
+    padding:10px;
+  }
+
+}
+@media only screen and (max-width: 600px){
+  ul{
+    height:200px;
+  }
 }
