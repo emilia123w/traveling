@@ -1,6 +1,6 @@
 function addAbout(){
   closeMap();
-  zeroPhotos()
+  zeroPhotos();
   document.getElementById('about').style.display="block";
 }
 
