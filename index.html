@@ -4,10 +4,25 @@
     <meta charset="UTF-8">
     <title>Widzimy sie w Warszawie</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-  <h1>WIDZIMY SIE W WARSZAWIE</h1>
+  <h1>WIDZIMY SIĘ W WARSZAWIE</h1>
+  <div class="menu">
+    <ul>
+      <li onclick="addAbout()">about</li>
+      <li onclick="initMap();">map</li>
+      <li onclick="displayPhotos()">photos</li>
+    </ul>
+  </div>
+  <div id="about"><h2>Jestesmy fajni i jezdzimy na rowerach</h2>
+  <img class="aboutPhoto" src="photos/bakowiec.jpg"></div>
+  <div id="map"></div>
+    <script src="js/map.js"></script>
     <script src="js/script.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCG28KPn4R6JOIXEgxygKcI9itTNQUIY9M&v=3">
+    </script>
+
 </body>
 </html>
