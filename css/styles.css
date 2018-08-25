@@ -8,7 +8,7 @@ html, body {
 #map {
   height: 100%;
   width: 100%;
-  background-image: url("gory3.jpg");
+  background-image: url("my2.jpg");
   display:block;
 }
 
@@ -23,12 +23,27 @@ html, body {
   width:800px;
 }
 
+img{
+  width:300px;
+  border:solid;
+  border-radius: 5px;
+}
+
+img:hover{
+  border-color: #8e1979;
+  border-width: thick;
+  cursor:pointer;
+}
+
 h1 {
   text-align:center;
   font-family: 'Bree Serif', serif;
   color:#05214f;
 }
 
+.galery {
+  margin:20px;
+}
 
 ul {
     list-style-type: none;
