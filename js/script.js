@@ -38,7 +38,7 @@ var photos=[
 function displayPhotos(){
   closeMap();
   closeAbout();
-  zeroPhotos()
+  zeroPhotos();
   $("body").append("<div class='galery'>" +photos+"</div>")
 }
 
