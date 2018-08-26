@@ -8,16 +8,16 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 <body>
-  <h1>WIDZIMY SIĘ W WARSZAWIE</h1>
+  <h1 tabindex=1>WIDZIMY SIĘ W WARSZAWIE</h1>
   <div class="menu">
     <ul>
-      <li onclick="addAbout()">about</li>
-      <li onclick="initMap();">map</li>
-      <li onclick="displayPhotos()">photos</li>
+      <li tabindex=2 onclick="addAbout()">about</li>
+      <li tabindex=3 onclick="initMap();">map</li>
+      <li tabindex=4 onclick="displayPhotos()">photos</li>
     </ul>
   </div>
   <div id="about"><h2>Jestesmy fajni i jezdzimy na rowerach</h2>
-  <img class="aboutPhoto" src="photos/my.jpg"></div>
+  <img class="aboutPhoto" alt="nasze foto" src="photos/my.jpg"></div>
   <div id="map"></div>
     <script src="js/map.js"></script>
     <script src="js/script.js"></script>
