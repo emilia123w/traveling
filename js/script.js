@@ -45,3 +45,12 @@ function displayPhotos(){
 function zeroPhotos(){
   $(".galery").remove();
 }
+
+
+$('body').on('click','img',function(){
+
+  this.style.width="600px";
+  setTimeout(function getSizeBack(){
+    $('img').css("width","300px")
+  },5000)
+})
