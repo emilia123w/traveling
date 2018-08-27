@@ -49,8 +49,8 @@ function zeroPhotos(){
 
 $('body').on('click','img',function(){
 
-  this.style.width="600px";
+  this.style.width="800px";
   setTimeout(function getSizeBack(){
     $('img').css("width","300px")
-  },5000)
+  },2000)
 })
